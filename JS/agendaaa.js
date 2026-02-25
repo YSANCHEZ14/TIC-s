@@ -7,11 +7,17 @@ switch(option){
     case 1:
         alert('Escogiste la opción 1');
         let nombre = prompt('Ingresa tu nombre');
-        let apellido = prompt('Ingresa tu apellido');
-        let facultad = prompt ('Ingresa la facultad a la que asistes');
-        let edad = prompt('Ingresa tu edad');
-        let telefono = ('Ingresa tu teléfono');
-        let agenda = {nombre, apellido, facultad, edad, telefono}
+        let id = prompt ('Ingresa tu id');
+        let edad = parseInt(prompt('Ingresa tu edad'));
+        let telefono = promt ('Ingresa tu teléfono');
+      let agenta = (id, nombre, telefono, edad);
+      agenda.id = id;
+      agenda.nombre = nombre;
+      agenda.edad= edad;
+      agenda.telefono = telefono;
+}
+}
+
         datos.push(agenda);
         alert('Contacto creado');
         break;
@@ -21,7 +27,7 @@ switch(option){
             for(let i = 0; i < datos.length; i++){
                 todos += 'Nombre: ' + datos[i].nombre + '\n';
                 todos += 'Apellido: ' + datos[i].apellido + '\n';
-                todos += 'Facultad: ' + datos[i].facultad + '\n';
+                todos += 'Id: ' + datos[i].id + '\n';
                 todos += 'Telefono: ' + datos[i].telefono + '\n';
                 todos += 'Edad: ' + datos[i].edad + '\n\n';
             }
@@ -32,6 +38,7 @@ switch(option){
                 alert(todos);
             }
             break;
+        
     case 3:
         alert('Escogiste 3 salir');
         if (confirm('Desea salir?')){
@@ -42,4 +49,5 @@ switch(option){
         alert('No recibí una opción válida');
         break;
     }
+    console.log(agenda);
 }
