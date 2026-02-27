@@ -1,0 +1,52 @@
+#encabezado {
+    background-color: rgb(212, 212, 247);
+    height: 9rem;
+}
+h1 {
+    text-align: center;
+    padding-top: 3.5rem;
+    color:blueviolet;
+}
+
+#p1 {
+    color:rgb(131, 28, 67);
+    font-style: italic;
+}
+
+#contenido {
+    text-align: center;
+}
+
+#info {
+    padding-top: 3.5rem;
+    font-size: large;
+}
+
+.container #contacto {
+    color:rgb(88, 88, 45);
+    font-size: x-large;
+    font-style:oblique;
+    font-weight: 200;
+}
+.container .information {
+    color:rgb(67, 67, 145);
+    font-style:unset;
+    font-family: 'Arial';
+}
+
+.menú {
+    padding: 5.8rem;
+    font-family:Verdana;
+    font-size: small;
+}
+nav {
+    background-color: rgb(246, 232, 244);
+}
+
+body {
+    background-color: rgba(222, 190, 236, 0.525);
+}
+
+#fofo {
+    background-color: rgba(181, 195, 230, 0.552);
+}
