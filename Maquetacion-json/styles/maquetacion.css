@@ -1,0 +1,106 @@
+#encabezado{
+    height: 50px;
+    color: rgb(243, 215, 250);
+    align-items: center;
+}
+
+#encabezado img {
+    width: 4rem;
+    float: left;
+    height: 3rem;
+    padding-right: 2rem;
+}
+
+#encabezado h1{
+    color: rgb(57, 5, 96);
+    margin-right: 3rem;
+    font-size: 3rem;
+}
+
+
+.menu ul {
+    display: flex;    
+    list-style: none;  
+    padding: 1rem;
+    background: rgb(209, 191, 214);
+    margin: 0;
+}
+
+#inicio {
+    margin-right: auto;
+}
+
+.menu ul li {
+    padding: 0 15px; 
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(57, 5, 96);
+    font-weight: bold;
+}
+
+#registro_charla {
+    text-align: left; 
+    background: rgba(209, 191, 214, 0.253);
+    border-radius: 8px;
+    padding: 20px;
+    width: fit-content;
+    margin: 20px auto; 
+}
+
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+#btnRegistrar {
+    background-color: rgb(57, 5, 96);
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#btnCancelar {
+    background-color: #ccc;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#list_ul, #charlas_ul {
+    list-style: none;
+    padding: 0;
+   
+}
+
+#list_ul li {
+    background:#f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#participante {
+    font-size: medium;
+}
+
+footer{
+    text-align: center;
+    background: rgba(243, 215, 250, 0.548);
+     text-align: center;
+    padding: 4px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

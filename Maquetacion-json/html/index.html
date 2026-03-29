@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificando Elementos</title>
+    <link rel="stylesheet" href="../styles/maquetacion.css">
+</head>
+<body>
+    <header class="encabezado" id="encabezado">
+        <div class="logo-container">
+            <img src="Logo_Sitio_Web.png" alt="Logo">
+            <h1>SICHARLAS</h1>
+        </div>
+    </header>
+    <nav class ="menu">
+        <ul>
+            <li id="inicio"><a href="index.html" >Inicio</a></li>
+            <li><a href="Listado.html">Listado</a></li>
+            <li><a href="#secc3">Charlas</a></li>
+            <li><a href="#secc4">Programación</a></li>
+        </ul>
+    </nav>
+   <main>
+    <section>
+        <div id="registro_charla">
+            <h2>Formulario</h2>
+            <form id="formRegistro">
+                <label>Nombre del Participante</label> 
+                <input type="text" id="participante"><br><br>
+                <label>Número de Cuenta</label> 
+                <input type="text" id="cuenta"><br><br>
+                <label>Nombre de la Charla</label>
+                <input type="text" id="charla"><br><br>
+                <label>Cupo Máximo</label>
+                <select id="cupo">
+                   <option>10</option> 
+                   <option>15</option> 
+                   <option>20</option> 
+                </select><br>
+                <br>
+                <button type="reset" id="btnCancelar">Cancelar</button>
+                <button type="button" id="btnRegistrar">Registrar</button>
+            </form>
+        </div>
+    </section>
+</main>
+<footer class="footer bg-secondary text-white text-center py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="textos_footer">© 2026 Universidad de Colima</p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="../json/maquetacion.js"></script>
+</body>
+</html>
