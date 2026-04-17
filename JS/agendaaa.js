@@ -16,12 +16,12 @@ switch(option){
       agenda.edad= edad;
       agenda.telefono = telefono;
 }
-}
 
         datos.push(agenda);
         alert('Contacto creado');
         break;
-    case 2:
+}
+ case 2: {
         let todos = '';
 
             for(let i = 0; i < datos.length; i++){
@@ -38,7 +38,7 @@ switch(option){
                 alert(todos);
             }
             break;
-        
+        }      
     case 3:
         alert('Escogiste 3 salir');
         if (confirm('Desea salir?')){
